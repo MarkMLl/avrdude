@@ -321,6 +321,13 @@ programmer
 ;
 
 programmer
+  id    = "arduinoR";
+  desc  = "Arduino with reset by inverted DTR";
+  type  = arduino;
+  reset = ~4;
+;
+
+programmer
   id    = "avrisp";
   desc  = "Atmel AVR ISP";
   type  = stk500;
